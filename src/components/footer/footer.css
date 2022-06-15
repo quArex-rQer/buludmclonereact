@@ -1,0 +1,33 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #474747;
+  color: white;
+  position: relative;
+  bottom: 0;
+  margin-top: 100px;
+}
+
+.footerContainer {
+  width: 100%;
+  display: flex;
+  max-width: 1800px;
+  color: white;
+  height: 150px;
+  align-items: center;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content-wrap {
+  flex: 1;
+}
+
+.footerContainer span {
+  font-size: 13px;
+}

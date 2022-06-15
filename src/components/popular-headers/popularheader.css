@@ -1,0 +1,24 @@
+.popularContainer {
+  width: 100%;
+  padding: 0 50px;
+  background-color: rgb(39, 37, 37);
+}
+
+.popularheader {
+  height: 80px;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+}
+
+.popularheader-cont {
+  width: 100%;
+  max-width: 1800px;
+  display: flex;
+  align-items: center;
+}
+
+.headerSpan span {
+  font-size: 28px;
+  color: white;
+}

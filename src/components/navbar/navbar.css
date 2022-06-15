@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  height: 80px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-container {
+  width: 100%;
+  max-width: 1800px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo span {
+  font-size: 30px;
+}
+
+.nav-buttons span {
+  margin-right: 20px;
+  font-size: 22px;
+}
+.nav-buttons button {
+  padding: 10px 30px;
+  background-color: red;
+  font-weight: 500;
+  color: white;
+  font-size: 22px;
+  margin-right: 50px;
+}
